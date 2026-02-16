@@ -1,0 +1,87 @@
+{
+  "salon": {
+    "name": "Serene Beauty",
+    "tagline": "Where elegance meets tranquility",
+    "address": "248 Elm Street, Suite 3, Brooklyn, NY 11201",
+    "phone": "(718) 555-0192",
+    "email": "hello@serenebeauty.com",
+    "hours": {
+      "Monday - Friday": "9:00 AM – 8:00 PM",
+      "Saturday": "9:00 AM – 6:00 PM",
+      "Sunday": "10:00 AM – 5:00 PM"
+    },
+    "social": {
+      "instagram": "https://instagram.com/serenebeauty",
+      "facebook": "https://facebook.com/serenebeauty",
+      "pinterest": "https://pinterest.com/serenebeauty"
+    }
+  },
+  "heroImages": {
+    "home": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600&q=80",
+    "about": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&q=80",
+    "services": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&q=80"
+  },
+  "services": {
+    "Hair": [
+      { "id": "h1", "name": "Classic Cut & Style", "description": "Precision haircut with shampoo and blow-dry finish.", "duration": "45 min", "price": 65, "image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600&q=80" },
+      { "id": "h2", "name": "Color & Highlights", "description": "Full color or highlights tailored to your skin tone.", "duration": "90 min", "price": 150, "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80" },
+      { "id": "h3", "name": "Deep Conditioning Treatment", "description": "Intensive moisture and repair for damaged hair.", "duration": "30 min", "price": 45, "image": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600&q=80" },
+      { "id": "h4", "name": "Blowout & Styling", "description": "Professional blow-dry and style for any occasion.", "duration": "40 min", "price": 55, "image": "https://images.unsplash.com/photo-1500840216050-6ffa99d75160?w=600&q=80" }
+    ],
+    "Nails": [
+      { "id": "n1", "name": "Classic Manicure", "description": "Nail shaping, cuticle care, and polish of your choice.", "duration": "30 min", "price": 35, "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80" },
+      { "id": "n2", "name": "Gel Manicure", "description": "Long-lasting gel polish with a flawless finish.", "duration": "45 min", "price": 50, "image": "https://images.unsplash.com/photo-1610992015732-2449b0ae5be3?w=600&q=80" },
+      { "id": "n3", "name": "Spa Pedicure", "description": "Relaxing foot soak, exfoliation, massage, and polish.", "duration": "60 min", "price": 55, "image": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=600&q=80" },
+      { "id": "n4", "name": "Nail Art", "description": "Custom nail art designs for a unique look.", "duration": "60 min", "price": 70, "image": "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?w=600&q=80" }
+    ],
+    "Skin": [
+      { "id": "s1", "name": "Classic Facial", "description": "Deep cleansing facial customized for your skin type.", "duration": "60 min", "price": 85, "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80" },
+      { "id": "s2", "name": "Anti-Aging Treatment", "description": "Advanced treatment to reduce fine lines and restore glow.", "duration": "75 min", "price": 120, "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600&q=80" },
+      { "id": "s3", "name": "Chemical Peel", "description": "Gentle peel for brighter, smoother skin.", "duration": "45 min", "price": 95, "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&q=80" },
+      { "id": "s4", "name": "Hydrating Mask", "description": "Intensive hydration mask for dry or sensitive skin.", "duration": "30 min", "price": 55, "image": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&q=80" }
+    ],
+    "Massage": [
+      { "id": "m1", "name": "Swedish Massage", "description": "Classic full-body relaxation massage.", "duration": "60 min", "price": 90, "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&q=80" },
+      { "id": "m2", "name": "Deep Tissue Massage", "description": "Targeted pressure for muscle tension relief.", "duration": "60 min", "price": 110, "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600&q=80" },
+      { "id": "m3", "name": "Hot Stone Therapy", "description": "Warm stones placed on key points for deep relaxation.", "duration": "75 min", "price": 130, "image": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600&q=80" },
+      { "id": "m4", "name": "Aromatherapy Massage", "description": "Essential oils combined with gentle massage techniques.", "duration": "60 min", "price": 100, "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600&q=80" }
+    ]
+  },
+  "team": [
+    { "id": "t1", "name": "Sophia Laurent", "role": "Master Stylist", "specialty": "Color & Cutting", "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&q=80", "bio": "15 years of experience in precision cutting and creative color." },
+    { "id": "t2", "name": "Emma Chen", "role": "Skin Specialist", "specialty": "Facials & Peels", "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80", "bio": "Licensed esthetician with a passion for holistic skincare." },
+    { "id": "t3", "name": "Mia Torres", "role": "Nail Artist", "specialty": "Gel & Nail Art", "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=80", "bio": "Award-winning nail artist known for intricate designs." },
+    { "id": "t4", "name": "Olivia Park", "role": "Massage Therapist", "specialty": "Deep Tissue & Hot Stone", "image": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80", "bio": "Certified therapist specializing in therapeutic bodywork." },
+    { "id": "t5", "name": "Ava Williams", "role": "Junior Stylist", "specialty": "Blowouts & Styling", "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&q=80", "bio": "Rising talent with a flair for modern, effortless styles." }
+  ],
+  "testimonials": [
+    { "id": "r1", "name": "Jessica M.", "text": "Serene Beauty is my happy place. Sophia did the most incredible balayage on my hair — I've never received so many compliments!", "rating": 5 },
+    { "id": "r2", "name": "Rachel K.", "text": "The spa pedicure was absolutely heavenly. The attention to detail and the calming atmosphere made it a perfect afternoon escape.", "rating": 5 },
+    { "id": "r3", "name": "Amanda L.", "text": "Emma's anti-aging facial transformed my skin. I walked out feeling ten years younger. Can't recommend enough!", "rating": 5 },
+    { "id": "r4", "name": "Sarah T.", "text": "I booked a deep tissue massage after a stressful week and Olivia worked miracles. I felt completely renewed.", "rating": 4 },
+    { "id": "r5", "name": "Nicole D.", "text": "The nail art Mia created for my wedding was stunning. Every single guest asked where I got my nails done!", "rating": 5 }
+  ],
+  "whyChooseUs": [
+    { "title": "Expert Team", "description": "Our skilled professionals bring years of experience and continuous training.", "icon": "award" },
+    { "title": "Premium Products", "description": "We use only top-tier, cruelty-free products for every treatment.", "icon": "sparkles" },
+    { "title": "Relaxing Atmosphere", "description": "A serene, modern space designed for your complete comfort.", "icon": "leaf" },
+    { "title": "Personalized Care", "description": "Every treatment is tailored to your unique needs and preferences.", "icon": "heart" }
+  ],
+  "timeSlots": [
+    "9:00 AM", "9:30 AM", "10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM",
+    "12:00 PM", "12:30 PM", "1:00 PM", "1:30 PM", "2:00 PM", "2:30 PM",
+    "3:00 PM", "3:30 PM", "4:00 PM", "4:30 PM", "5:00 PM", "5:30 PM",
+    "6:00 PM", "6:30 PM", "7:00 PM"
+  ],
+  "mockUser": {
+    "name": "Jane Doe",
+    "email": "jane.doe@email.com",
+    "phone": "(555) 123-4567",
+    "memberSince": "January 2024"
+  },
+  "bookingHistory": [
+    { "id": "b1", "service": "Classic Cut & Style", "stylist": "Sophia Laurent", "date": "2025-12-15", "time": "10:00 AM", "status": "Completed" },
+    { "id": "b2", "service": "Spa Pedicure", "stylist": "Mia Torres", "date": "2026-01-08", "time": "2:00 PM", "status": "Completed" },
+    { "id": "b3", "service": "Swedish Massage", "stylist": "Olivia Park", "date": "2026-02-20", "time": "11:00 AM", "status": "Upcoming" }
+  ]
+}
