@@ -1,71 +1,115 @@
 {
   "salon": {
-    "name": "Serene Beauty",
-    "tagline": "Where elegance meets tranquility",
-    "address": "248 Elm Street, Suite 3, Brooklyn, NY 11201",
-    "phone": "(718) 555-0192",
-    "email": "hello@serenebeauty.com",
+    "name": "ZenShe Spa",
+    "tagline": "Feminine wellness rituals, rooted in nature",
+    "address": "14 Rue du Lac Turkana, Les Berges du Lac, Tunis 1053, Tunisia",
+    "phone": "+216 71 555 019",
+    "email": "hello@zenshespa.tn",
+    "currency": "TND",
     "hours": {
       "Monday - Friday": "9:00 AM – 8:00 PM",
       "Saturday": "9:00 AM – 6:00 PM",
-      "Sunday": "10:00 AM – 5:00 PM"
+      "Sunday": "10:00 AM – 4:00 PM"
     },
     "social": {
-      "instagram": "https://instagram.com/serenebeauty",
-      "facebook": "https://facebook.com/serenebeauty",
-      "pinterest": "https://pinterest.com/serenebeauty"
+      "instagram": "https://instagram.com/zenshespa",
+      "facebook": "https://facebook.com/zenshespa",
+      "pinterest": "https://pinterest.com/zenshespa"
     }
   },
   "heroImages": {
-    "home": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600&q=80",
-    "about": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&q=80",
-    "services": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&q=80"
+    "home": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=1600&q=80",
+    "about": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200&q=80",
+    "services": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1200&q=80"
   },
   "services": {
-    "Hair": [
-      { "id": "h1", "name": "Classic Cut & Style", "description": "Precision haircut with shampoo and blow-dry finish.", "duration": "45 min", "price": 65, "image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600&q=80" },
-      { "id": "h2", "name": "Color & Highlights", "description": "Full color or highlights tailored to your skin tone.", "duration": "90 min", "price": 150, "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80" },
-      { "id": "h3", "name": "Deep Conditioning Treatment", "description": "Intensive moisture and repair for damaged hair.", "duration": "30 min", "price": 45, "image": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600&q=80" },
-      { "id": "h4", "name": "Blowout & Styling", "description": "Professional blow-dry and style for any occasion.", "duration": "40 min", "price": 55, "image": "https://images.unsplash.com/photo-1500840216050-6ffa99d75160?w=600&q=80" }
+    "Vaginal Steaming": [
+      { "id": "v1", "name": "Classic Yoni Steam", "description": "A gentle 30-minute herbal steam with mugwort, rose and calendula to soothe and restore.", "duration": "30 min", "price": 90, "image": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600&q=80" },
+      { "id": "v2", "name": "Postpartum Recovery Steam", "description": "Warming blend of yarrow, lavender and plantain to support healing after birth.", "duration": "45 min", "price": 130, "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&q=80" },
+      { "id": "v3", "name": "Cycle Balance Steam", "description": "Formulated for cramps and irregular cycles with raspberry leaf and motherwort.", "duration": "45 min", "price": 120, "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600&q=80" },
+      { "id": "v4", "name": "Fertility Support Steam", "description": "Nourishing steam ritual with red clover and damiana, paired with abdominal massage.", "duration": "60 min", "price": 170, "image": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&q=80" }
     ],
-    "Nails": [
-      { "id": "n1", "name": "Classic Manicure", "description": "Nail shaping, cuticle care, and polish of your choice.", "duration": "30 min", "price": 35, "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80" },
-      { "id": "n2", "name": "Gel Manicure", "description": "Long-lasting gel polish with a flawless finish.", "duration": "45 min", "price": 50, "image": "https://images.unsplash.com/photo-1610992015732-2449b0ae5be3?w=600&q=80" },
-      { "id": "n3", "name": "Spa Pedicure", "description": "Relaxing foot soak, exfoliation, massage, and polish.", "duration": "60 min", "price": 55, "image": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=600&q=80" },
-      { "id": "n4", "name": "Nail Art", "description": "Custom nail art designs for a unique look.", "duration": "60 min", "price": 70, "image": "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?w=600&q=80" }
+    "Yoni Care": [
+      { "id": "y1", "name": "Yoni Steam + Herbal Sitz Bath", "description": "Steam followed by a mineral sitz soak for deep comfort and freshness.", "duration": "60 min", "price": 160, "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600&q=80" },
+      { "id": "y2", "name": "Intimate Area Brightening", "description": "Gentle plant-based exfoliation and hydration for even, comfortable skin.", "duration": "45 min", "price": 140, "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80" },
+      { "id": "y3", "name": "Sugaring Hair Removal", "description": "Traditional Tunisian sugar paste, low-irritation and fully natural.", "duration": "40 min", "price": 80, "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600&q=80" },
+      { "id": "y4", "name": "Pelvic Floor Relaxation", "description": "Guided breathwork and warm compress therapy to release pelvic tension.", "duration": "50 min", "price": 150, "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80" }
     ],
-    "Skin": [
-      { "id": "s1", "name": "Classic Facial", "description": "Deep cleansing facial customized for your skin type.", "duration": "60 min", "price": 85, "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80" },
-      { "id": "s2", "name": "Anti-Aging Treatment", "description": "Advanced treatment to reduce fine lines and restore glow.", "duration": "75 min", "price": 120, "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600&q=80" },
-      { "id": "s3", "name": "Chemical Peel", "description": "Gentle peel for brighter, smoother skin.", "duration": "45 min", "price": 95, "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&q=80" },
-      { "id": "s4", "name": "Hydrating Mask", "description": "Intensive hydration mask for dry or sensitive skin.", "duration": "30 min", "price": 55, "image": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&q=80" }
+    "Body Rituals": [
+      { "id": "b1", "name": "Traditional Hammam Ritual", "description": "Black soap cleanse, kessa exfoliation and rhassoul clay wrap.", "duration": "75 min", "price": 180, "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=600&q=80" },
+      { "id": "b2", "name": "Womb Warming Massage", "description": "Abdominal and lower-back massage with warm castor and olive oil.", "duration": "60 min", "price": 150, "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&q=80" },
+      { "id": "b3", "name": "Hot Stone Relaxation", "description": "Warm basalt stones placed along key points for deep release.", "duration": "75 min", "price": 190, "image": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600&q=80" },
+      { "id": "b4", "name": "Olive & Rose Body Polish", "description": "Tunisian olive oil scrub with rose water for silky, glowing skin.", "duration": "45 min", "price": 120, "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80" }
     ],
-    "Massage": [
-      { "id": "m1", "name": "Swedish Massage", "description": "Classic full-body relaxation massage.", "duration": "60 min", "price": 90, "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&q=80" },
-      { "id": "m2", "name": "Deep Tissue Massage", "description": "Targeted pressure for muscle tension relief.", "duration": "60 min", "price": 110, "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=600&q=80" },
-      { "id": "m3", "name": "Hot Stone Therapy", "description": "Warm stones placed on key points for deep relaxation.", "duration": "75 min", "price": 130, "image": "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=600&q=80" },
-      { "id": "m4", "name": "Aromatherapy Massage", "description": "Essential oils combined with gentle massage techniques.", "duration": "60 min", "price": 100, "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600&q=80" }
+    "Wellness": [
+      { "id": "w1", "name": "Herbal Wellness Consultation", "description": "One-on-one session to build your personal steam and herb protocol.", "duration": "40 min", "price": 70, "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600&q=80" },
+      { "id": "w2", "name": "Cycle Coaching Session", "description": "Learn to track and work with your cycle through nutrition and rest.", "duration": "50 min", "price": 95, "image": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=600&q=80" },
+      { "id": "w3", "name": "Breathwork & Meditation", "description": "Guided nervous-system reset in our candlelit calm room.", "duration": "45 min", "price": 85, "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80" },
+      { "id": "w4", "name": "Prenatal Care Ritual", "description": "Safe, soothing massage and rest ritual designed for expecting mothers.", "duration": "60 min", "price": 160, "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80" }
     ]
   },
+  "memberships": [
+    {
+      "id": "mem1",
+      "name": "Bloom",
+      "price": 190,
+      "period": "month",
+      "description": "For the woman starting her ritual.",
+      "perks": ["1 classic yoni steam per month", "10% off all products", "Free herbal consultation", "Members-only booking window"],
+      "featured": false
+    },
+    {
+      "id": "mem2",
+      "name": "Flow",
+      "price": 340,
+      "period": "month",
+      "description": "Our most-loved balance of care.",
+      "perks": ["2 steams + 1 body ritual per month", "15% off all products", "Priority weekend slots", "Quarterly cycle coaching", "Free herb refill pouch"],
+      "featured": true
+    },
+    {
+      "id": "mem3",
+      "name": "Sanctuary",
+      "price": 590,
+      "period": "month",
+      "description": "Unlimited access to the full ZenShe world.",
+      "perks": ["Unlimited steams", "2 body rituals per month", "20% off all products", "Private hammam sessions", "Dedicated wellness practitioner", "Guest pass every month"],
+      "featured": false
+    }
+  ],
+  "products": [
+    { "id": "p1", "name": "Classic Steam Herb Blend", "category": "Herbs", "price": 55, "description": "Mugwort, rose petals, calendula and lavender. 4 steam sessions.", "image": "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=600&q=80" },
+    { "id": "p2", "name": "Postpartum Herb Blend", "category": "Herbs", "price": 65, "description": "Yarrow, plantain and comfrey for gentle recovery.", "image": "https://images.unsplash.com/photo-1602928321679-560bb453f190?w=600&q=80" },
+    { "id": "p3", "name": "Cycle Balance Tea", "category": "Herbs", "price": 40, "description": "Raspberry leaf and nettle infusion, 30 servings.", "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&q=80" },
+    { "id": "p4", "name": "Foldable Steam Seat", "category": "Equipment", "price": 220, "description": "Beech wood at-home steam seat with carry bag.", "image": "https://images.unsplash.com/photo-1616627561950-9f746e330187?w=600&q=80" },
+    { "id": "p5", "name": "Ceramic Steam Bowl", "category": "Equipment", "price": 130, "description": "Handmade Nabeul ceramic bowl, heat retaining.", "image": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=600&q=80" },
+    { "id": "p6", "name": "Rose Water Mist", "category": "Body Care", "price": 45, "description": "Distilled Tunisian damask rose, alcohol free.", "image": "https://images.unsplash.com/photo-1595475207225-428b62bda831?w=600&q=80" },
+    { "id": "p7", "name": "Olive & Black Soap", "category": "Body Care", "price": 35, "description": "Traditional hammam savon noir, 250g.", "image": "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=600&q=80" },
+    { "id": "p8", "name": "Rhassoul Clay Mask", "category": "Body Care", "price": 50, "description": "Mineral-rich Atlas clay for body and scalp.", "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&q=80" },
+    { "id": "p9", "name": "Womb Warming Oil", "category": "Body Care", "price": 60, "description": "Castor, olive and ginger oil blend for abdominal massage.", "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&q=80" },
+    { "id": "p10", "name": "Steam Ritual Gift Set", "category": "Gift Sets", "price": 240, "description": "Herb blend, bowl, robe and rose mist in a linen box.", "image": "https://images.unsplash.com/photo-1607006677169-a9d34c825d97?w=600&q=80" },
+    { "id": "p11", "name": "Linen Steam Robe", "category": "Gift Sets", "price": 180, "description": "Breathable Tunisian linen wrap robe, one size.", "image": "https://images.unsplash.com/photo-1591348122449-02525d70379b?w=600&q=80" },
+    { "id": "p12", "name": "Calm Candle — Fig & Neroli", "category": "Gift Sets", "price": 70, "description": "Soy wax candle, 45 hours burn time.", "image": "https://images.unsplash.com/photo-1602874801006-e26c4c5b5e8a?w=600&q=80" }
+  ],
   "team": [
-    { "id": "t1", "name": "Sophia Laurent", "role": "Master Stylist", "specialty": "Color & Cutting", "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&q=80", "bio": "15 years of experience in precision cutting and creative color." },
-    { "id": "t2", "name": "Emma Chen", "role": "Skin Specialist", "specialty": "Facials & Peels", "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80", "bio": "Licensed esthetician with a passion for holistic skincare." },
-    { "id": "t3", "name": "Mia Torres", "role": "Nail Artist", "specialty": "Gel & Nail Art", "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=80", "bio": "Award-winning nail artist known for intricate designs." },
-    { "id": "t4", "name": "Olivia Park", "role": "Massage Therapist", "specialty": "Deep Tissue & Hot Stone", "image": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80", "bio": "Certified therapist specializing in therapeutic bodywork." },
-    { "id": "t5", "name": "Ava Williams", "role": "Junior Stylist", "specialty": "Blowouts & Styling", "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&q=80", "bio": "Rising talent with a flair for modern, effortless styles." }
+    { "id": "t1", "name": "Amira Ben Salah", "role": "Founder & Steam Practitioner", "specialty": "Yoni Steaming & Herbalism", "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&q=80", "bio": "Certified peristeam facilitator with 12 years in feminine wellness." },
+    { "id": "t2", "name": "Nour Trabelsi", "role": "Hammam Specialist", "specialty": "Traditional Rituals", "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80", "bio": "Third-generation hammam therapist from Sidi Bou Said." },
+    { "id": "t3", "name": "Leïla Mansour", "role": "Herbalist", "specialty": "Custom Herb Blends", "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=80", "bio": "Formulates every ZenShe blend from locally sourced plants." },
+    { "id": "t4", "name": "Sarra Gharbi", "role": "Massage Therapist", "specialty": "Womb & Prenatal Care", "image": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80", "bio": "Specialist in abdominal therapy and prenatal bodywork." },
+    { "id": "t5", "name": "Ines Khelifi", "role": "Wellness Coach", "specialty": "Cycle & Breathwork", "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&q=80", "bio": "Guides women to work with their cycle, not against it." }
   ],
   "testimonials": [
-    { "id": "r1", "name": "Jessica M.", "text": "Serene Beauty is my happy place. Sophia did the most incredible balayage on my hair — I've never received so many compliments!", "rating": 5 },
-    { "id": "r2", "name": "Rachel K.", "text": "The spa pedicure was absolutely heavenly. The attention to detail and the calming atmosphere made it a perfect afternoon escape.", "rating": 5 },
-    { "id": "r3", "name": "Amanda L.", "text": "Emma's anti-aging facial transformed my skin. I walked out feeling ten years younger. Can't recommend enough!", "rating": 5 },
-    { "id": "r4", "name": "Sarah T.", "text": "I booked a deep tissue massage after a stressful week and Olivia worked miracles. I felt completely renewed.", "rating": 4 },
-    { "id": "r5", "name": "Nicole D.", "text": "The nail art Mia created for my wedding was stunning. Every single guest asked where I got my nails done!", "rating": 5 }
+    { "id": "r1", "name": "Yasmine B.", "text": "My first yoni steam at ZenShe changed how I relate to my cycle. Amira explained everything with so much care.", "rating": 5 },
+    { "id": "r2", "name": "Rim K.", "text": "The postpartum recovery steam was exactly what I needed. I felt held from the moment I walked in.", "rating": 5 },
+    { "id": "r3", "name": "Salma T.", "text": "The hammam ritual is the best in Tunis, and the herb blends I ordered from the store are wonderful.", "rating": 5 },
+    { "id": "r4", "name": "Dorra M.", "text": "I joined the Flow membership and my cramps have genuinely improved. Worth every dinar.", "rating": 4 },
+    { "id": "r5", "name": "Hiba S.", "text": "A calm, respectful, women-only space. The womb warming massage is pure comfort.", "rating": 5 }
   ],
   "whyChooseUs": [
-    { "title": "Expert Team", "description": "Our skilled professionals bring years of experience and continuous training.", "icon": "award" },
-    { "title": "Premium Products", "description": "We use only top-tier, cruelty-free products for every treatment.", "icon": "sparkles" },
-    { "title": "Relaxing Atmosphere", "description": "A serene, modern space designed for your complete comfort.", "icon": "leaf" },
-    { "title": "Personalized Care", "description": "Every treatment is tailored to your unique needs and preferences.", "icon": "heart" }
+    { "title": "Certified Practitioners", "description": "Trained peristeam facilitators and licensed therapists only.", "icon": "award" },
+    { "title": "Natural Tunisian Herbs", "description": "Locally sourced, organic plants blended in-house.", "icon": "leaf" },
+    { "title": "Private & Respectful", "description": "A women-only sanctuary with fully private treatment rooms.", "icon": "sparkles" },
+    { "title": "Personalised Protocols", "description": "Every ritual is adapted to your body and your cycle.", "icon": "heart" }
   ],
   "timeSlots": [
     "9:00 AM", "9:30 AM", "10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM",
@@ -73,15 +117,24 @@
     "3:00 PM", "3:30 PM", "4:00 PM", "4:30 PM", "5:00 PM", "5:30 PM",
     "6:00 PM", "6:30 PM", "7:00 PM"
   ],
+  "demoCredentials": {
+    "email": "zen@zenshe.tn",
+    "password": "zenshe123"
+  },
   "mockUser": {
-    "name": "Jane Doe",
-    "email": "jane.doe@email.com",
-    "phone": "(555) 123-4567",
-    "memberSince": "January 2024"
+    "name": "Yasmine Bouazizi",
+    "email": "zen@zenshe.tn",
+    "phone": "+216 22 145 908",
+    "membership": "Flow",
+    "memberSince": "January 2025"
   },
   "bookingHistory": [
-    { "id": "b1", "service": "Classic Cut & Style", "stylist": "Sophia Laurent", "date": "2025-12-15", "time": "10:00 AM", "status": "Completed" },
-    { "id": "b2", "service": "Spa Pedicure", "stylist": "Mia Torres", "date": "2026-01-08", "time": "2:00 PM", "status": "Completed" },
-    { "id": "b3", "service": "Swedish Massage", "stylist": "Olivia Park", "date": "2026-02-20", "time": "11:00 AM", "status": "Upcoming" }
+    { "id": "h1", "service": "Classic Yoni Steam", "stylist": "Amira Ben Salah", "date": "2026-06-15", "time": "10:00 AM", "status": "Completed" },
+    { "id": "h2", "service": "Traditional Hammam Ritual", "stylist": "Nour Trabelsi", "date": "2026-07-08", "time": "2:00 PM", "status": "Completed" },
+    { "id": "h3", "service": "Cycle Balance Steam", "stylist": "Amira Ben Salah", "date": "2026-09-20", "time": "11:00 AM", "status": "Upcoming" }
+  ],
+  "orderHistory": [
+    { "id": "o1", "date": "2026-07-02", "items": "Classic Steam Herb Blend ×2, Rose Water Mist", "total": 155, "status": "Delivered" },
+    { "id": "o2", "date": "2026-08-19", "items": "Foldable Steam Seat", "total": 220, "status": "Shipped" }
   ]
 }
