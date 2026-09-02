@@ -5,6 +5,7 @@ interface User {
   name: string;
   email: string;
   phone?: string;
+  membership?: string;
   memberSince?: string;
 }
 
@@ -21,20 +22,22 @@ const AuthContext = createContext<AuthContextType | null>(null);
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
 
-  const login = useCallback((email: string, _password: string) => {
-    setUser({ ...data.mockUser, email });
+  const login = useCallback((email: string, password: string) => {
+    const { email: demoEmail, password: demoPassword } = data.demoCredentials;
+    if (email.trim().toLowerCase() !== demoEmail || password !== demoPassword) return false;
+    setUser(data.mockUser);
     return true;
   }, []);
 
   const signup = useCallback((name: string, email: string, _password: string) => {
-    setUser({ name, email, memberSince: "February 2026" });
+    setUser({ name, email, membership: "None", memberSince: "September 2026" });
     return true;
   }, []);
 
   const logout = useCallback(() => setUser(null), []);
 
   const updateProfile = useCallback((updates: Partial<User>) => {
-    setUser(prev => prev ? { ...prev, ...updates } : null);
+    setUser(prev => (prev ? { ...prev, ...updates } : null));
   }, []);
 
   return (
