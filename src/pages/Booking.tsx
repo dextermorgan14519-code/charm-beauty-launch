@@ -85,7 +85,7 @@ const Booking = () => {
                       <img src={s.image} alt={s.name} className="h-14 w-14 rounded object-cover" />
                       <div className="flex-1">
                         <p className="text-sm font-semibold text-foreground">{s.name}</p>
-                        <p className="text-xs text-muted-foreground">{s.duration} · ${s.price}</p>
+                        <p className="text-xs text-muted-foreground">{s.duration} · {s.price} TND</p>
                       </div>
                     </Card>
                   ))}
@@ -153,7 +153,7 @@ const Booking = () => {
               <Card className="divide-y divide-border border-border p-0 overflow-hidden">
                 {[
                   ["Service", `${selectedService?.name} (${selectedService?.duration})`],
-                  ["Price", `$${selectedService?.price}`],
+                  ["Price", `{selectedService?.price} TND`],
                   ["Stylist", selectedStylist?.name],
                   ["Date", date?.toLocaleDateString()],
                   ["Time", time],
